@@ -1,8 +1,8 @@
-package settings;
+package pv.settings;
 
-public record Setting<T>(String key, T value) {
+public record Setting(String key, String value) {
     @Override
     public String toString() {
-        return value.toString();
+        return value;
     }
 }

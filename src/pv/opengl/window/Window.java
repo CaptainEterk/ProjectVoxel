@@ -1,4 +1,4 @@
-package opengl.window;
+package pv.opengl.window;
 
 import org.lwjgl.glfw.GLFWWindowSizeCallback;
 
